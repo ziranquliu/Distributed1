@@ -1,0 +1,4 @@
+D:\Project\Distributed\DistributedDict\bin\Debug\DistributedDict.dll
+D:\Project\Distributed\DistributedDict\bin\Debug\DistributedDict.pdb
+D:\Project\Distributed\DistributedDict\obj\Debug\DistributedDict.dll
+D:\Project\Distributed\DistributedDict\obj\Debug\DistributedDict.pdb

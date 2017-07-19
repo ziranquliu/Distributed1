@@ -1,0 +1,10 @@
+D:\Project\Distributed\DistributedModel\bin\Debug\DistributedModel.dll
+D:\Project\Distributed\DistributedModel\bin\Debug\DistributedModel.pdb
+D:\Project\Distributed\DistributedModel\bin\Debug\DistributedDict.dll
+D:\Project\Distributed\DistributedModel\bin\Debug\MongoDB.Bson.dll
+D:\Project\Distributed\DistributedModel\bin\Debug\DistributedDict.pdb
+D:\Project\Distributed\DistributedModel\bin\Debug\MongoDB.Bson.pdb
+D:\Project\Distributed\DistributedModel\bin\Debug\MongoDB.Bson.xml
+D:\Project\Distributed\DistributedModel\obj\Debug\DistributedModel.csprojResolveAssemblyReference.cache
+D:\Project\Distributed\DistributedModel\obj\Debug\DistributedModel.dll
+D:\Project\Distributed\DistributedModel\obj\Debug\DistributedModel.pdb

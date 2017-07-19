@@ -1,0 +1,5 @@
+D:\Project\Distributed\DistributedUtil\bin\Debug\DistributedUtil.dll
+D:\Project\Distributed\DistributedUtil\bin\Debug\DistributedUtil.pdb
+D:\Project\Distributed\DistributedUtil\obj\Debug\DistributedUtil.dll
+D:\Project\Distributed\DistributedUtil\obj\Debug\DistributedUtil.pdb
+D:\Project\Distributed\DistributedUtil\obj\Debug\DistributedUtil.csprojResolveAssemblyReference.cache

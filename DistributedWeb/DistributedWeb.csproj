@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD525A3E-81A0-489C-9B1A-224007F95A3A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DistributedWeb</RootNamespace>
+    <AssemblyName>DistributedWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MongoDB.Bson, Version=1.7.0.4714, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=1.7.0.4714, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mongodb\User\AddUser.aspx" />
+    <Content Include="Mongodb\User\List.aspx" />
+    <Content Include="Sql\User\AddUser.aspx" />
+    <Content Include="Ajax\AddUserInfo.aspx" />
+    <Content Include="Ajax\Scripts\adduser.js" />
+    <Content Include="Ajax\Scripts\default.js" />
+    <Content Include="Ajax\Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Ajax\Scripts\jquery-1.4.1.js" />
+    <Content Include="Ajax\Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Ajax\Scripts\jquery-1.8.3.js" />
+    <Content Include="css\css.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Ajax\Default.aspx" />
+    <Content Include="Error\BanError.html" />
+    <Content Include="Global.asax" />
+    <Content Include="images\bu01.gif" />
+    <Content Include="images\bu02.gif" />
+    <Content Include="images\bu03.gif" />
+    <Content Include="images\bu04.gif" />
+    <Content Include="images\bu05.gif" />
+    <Content Include="images\bu06.gif" />
+    <Content Include="images\bu07.gif" />
+    <Content Include="images\bu08.gif" />
+    <Content Include="images\bu09.gif" />
+    <Content Include="images\bu10.gif" />
+    <Content Include="images\bu11.gif" />
+    <Content Include="images\bu12.gif" />
+    <Content Include="images\bu13.gif" />
+    <Content Include="images\button03.gif" />
+    <Content Include="images\button04.gif" />
+    <Content Include="images\button05.gif" />
+    <Content Include="images\button06.gif" />
+    <Content Include="images\button07.gif" />
+    <Content Include="images\button08.gif" />
+    <Content Include="images\button09.gif" />
+    <Content Include="images\button10.gif" />
+    <Content Include="images\dhbutton01.gif" />
+    <Content Include="images\dhbutton02.gif" />
+    <Content Include="images\dhbutton03.gif" />
+    <Content Include="images\dhbutton04.gif" />
+    <Content Include="images\dhbutton05.gif" />
+    <Content Include="images\ico01.gif" />
+    <Content Include="images\ico02.gif" />
+    <Content Include="images\ico03.gif" />
+    <Content Include="images\ico04.gif" />
+    <Content Include="images\ico05.gif" />
+    <Content Include="images\ico06.gif" />
+    <Content Include="images\ico07.gif" />
+    <Content Include="images\ico11.gif" />
+    <Content Include="images\ico12.gif" />
+    <Content Include="images\ico13.gif" />
+    <Content Include="images\ico14.gif" />
+    <Content Include="images\ico15.gif" />
+    <Content Include="images\ico16.gif" />
+    <Content Include="images\ico24.gif" />
+    <Content Include="images\left.gif" />
+    <Content Include="images\line01.gif" />
+    <Content Include="images\loadon.gif" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\mode.jpg" />
+    <Content Include="images\nav01.gif" />
+    <Content Include="images\nav02.gif" />
+    <Content Include="images\nav03.gif" />
+    <Content Include="images\nav04.gif" />
+    <Content Include="images\nav05.gif" />
+    <Content Include="images\nav06.gif" />
+    <Content Include="images\nav07.gif" />
+    <Content Include="images\navbutton01.gif" />
+    <Content Include="images\navbutton02.gif" />
+    <Content Include="images\navbutton03.gif" />
+    <Content Include="images\navbutton04.gif" />
+    <Content Include="images\navend.gif" />
+    <Content Include="images\newline.gif" />
+    <Content Include="images\newling.gif" />
+    <Content Include="images\pic05.gif" />
+    <Content Include="images\shape01.gif" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\top.gif" />
+    <Content Include="images\top02.gif" />
+    <Content Include="images\top03.gif" />
+    <Content Include="images\welcome.gif" />
+    <Content Include="Index.aspx" />
+    <Content Include="left.html" />
+    <Content Include="Sql\User\List.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Scripts\add.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery-1.8.3.js" />
+    <Content Include="Scripts\list.js" />
+    <Content Include="Scripts\listfunc.js" />
+    <Content Include="top.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Hander\hander.ashx.cs">
+      <DependentUpon>hander.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Mongodb\User\AddUser.aspx.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mongodb\User\AddUser.aspx.designer.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mongodb\User\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mongodb\User\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sql\User\AddUser.aspx.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sql\User\AddUser.aspx.designer.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\AddUserInfo.aspx.cs">
+      <DependentUpon>AddUserInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\AddUserInfo.aspx.designer.cs">
+      <DependentUpon>AddUserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Hander\user.ashx.cs">
+      <DependentUpon>user.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sql\User\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sql\User\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DistributedBLL\DistributedBLL.csproj">
+      <Project>{247B1DB3-752E-41DB-BA03-A94DAE0BDBA2}</Project>
+      <Name>DistributedBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DistributedDict\DistributedDict.csproj">
+      <Project>{987B2254-4476-40E1-AEB5-44ED81E4F9D3}</Project>
+      <Name>DistributedDict</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DistributedModel\DistributedModel.csproj">
+      <Project>{FF593ACC-CF6F-4957-B8F3-5C106C8E55D0}</Project>
+      <Name>DistributedModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DistributedUtil\DistributedUtil.csproj">
+      <Project>{3B6752B7-034F-42FE-9181-1CBEE186A803}</Project>
+      <Name>DistributedUtil</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\Hander\user.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Hander\hander.ashx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>11619</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

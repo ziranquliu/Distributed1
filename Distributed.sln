@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedDAL", "DistributedDAL\DistributedDAL.csproj", "{DD4D07AD-E85E-46A3-850F-1A9882D4AC75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedModel", "DistributedModel\DistributedModel.csproj", "{FF593ACC-CF6F-4957-B8F3-5C106C8E55D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedBLL", "DistributedBLL\DistributedBLL.csproj", "{247B1DB3-752E-41DB-BA03-A94DAE0BDBA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedUtil", "DistributedUtil\DistributedUtil.csproj", "{3B6752B7-034F-42FE-9181-1CBEE186A803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedWeb", "DistributedWeb\DistributedWeb.csproj", "{AD525A3E-81A0-489C-9B1A-224007F95A3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedDict", "DistributedDict\DistributedDict.csproj", "{987B2254-4476-40E1-AEB5-44ED81E4F9D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD4D07AD-E85E-46A3-850F-1A9882D4AC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4D07AD-E85E-46A3-850F-1A9882D4AC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4D07AD-E85E-46A3-850F-1A9882D4AC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4D07AD-E85E-46A3-850F-1A9882D4AC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF593ACC-CF6F-4957-B8F3-5C106C8E55D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF593ACC-CF6F-4957-B8F3-5C106C8E55D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF593ACC-CF6F-4957-B8F3-5C106C8E55D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF593ACC-CF6F-4957-B8F3-5C106C8E55D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247B1DB3-752E-41DB-BA03-A94DAE0BDBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247B1DB3-752E-41DB-BA03-A94DAE0BDBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247B1DB3-752E-41DB-BA03-A94DAE0BDBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247B1DB3-752E-41DB-BA03-A94DAE0BDBA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6752B7-034F-42FE-9181-1CBEE186A803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6752B7-034F-42FE-9181-1CBEE186A803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6752B7-034F-42FE-9181-1CBEE186A803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6752B7-034F-42FE-9181-1CBEE186A803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD525A3E-81A0-489C-9B1A-224007F95A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD525A3E-81A0-489C-9B1A-224007F95A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD525A3E-81A0-489C-9B1A-224007F95A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD525A3E-81A0-489C-9B1A-224007F95A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987B2254-4476-40E1-AEB5-44ED81E4F9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987B2254-4476-40E1-AEB5-44ED81E4F9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987B2254-4476-40E1-AEB5-44ED81E4F9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987B2254-4476-40E1-AEB5-44ED81E4F9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

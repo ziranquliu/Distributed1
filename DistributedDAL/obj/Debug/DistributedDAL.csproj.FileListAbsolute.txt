@@ -1,0 +1,17 @@
+D:\Project\Distributed\DistributedDAL\bin\Debug\DistributedDAL.dll
+D:\Project\Distributed\DistributedDAL\bin\Debug\DistributedDAL.pdb
+D:\Project\Distributed\DistributedDAL\bin\Debug\DistributedModel.dll
+D:\Project\Distributed\DistributedDAL\bin\Debug\DistributedUtil.dll
+D:\Project\Distributed\DistributedDAL\bin\Debug\MongoDB.Bson.dll
+D:\Project\Distributed\DistributedDAL\bin\Debug\MongoDB.Driver.dll
+D:\Project\Distributed\DistributedDAL\bin\Debug\DistributedDict.dll
+D:\Project\Distributed\DistributedDAL\bin\Debug\DistributedModel.pdb
+D:\Project\Distributed\DistributedDAL\bin\Debug\DistributedUtil.pdb
+D:\Project\Distributed\DistributedDAL\bin\Debug\MongoDB.Bson.pdb
+D:\Project\Distributed\DistributedDAL\bin\Debug\MongoDB.Bson.xml
+D:\Project\Distributed\DistributedDAL\bin\Debug\MongoDB.Driver.pdb
+D:\Project\Distributed\DistributedDAL\bin\Debug\MongoDB.Driver.xml
+D:\Project\Distributed\DistributedDAL\bin\Debug\DistributedDict.pdb
+D:\Project\Distributed\DistributedDAL\obj\Debug\DistributedDAL.csprojResolveAssemblyReference.cache
+D:\Project\Distributed\DistributedDAL\obj\Debug\DistributedDAL.dll
+D:\Project\Distributed\DistributedDAL\obj\Debug\DistributedDAL.pdb
